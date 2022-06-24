@@ -1,0 +1,55 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="kitchenRecipes">
+      <h2 data-cy="kitchenRecipesDetailsHeading"><span jhiTranslate="backendApp.kitchenRecipes.detail.title">Kitchen Recipes</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ kitchenRecipes.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="backendApp.kitchenRecipes.name">Name</span></dt>
+        <dd>
+          <span>{{ kitchenRecipes.name }}</span>
+        </dd>
+        <dt><span jhiTranslate="backendApp.kitchenRecipes.description">Description</span></dt>
+        <dd>
+          <span>{{ kitchenRecipes.description }}</span>
+        </dd>
+        <dt><span jhiTranslate="backendApp.kitchenRecipes.ingredients">Ingredients</span></dt>
+        <dd>
+          <span>{{ kitchenRecipes.ingredients }}</span>
+        </dd>
+        <dt><span jhiTranslate="backendApp.kitchenRecipes.preparation">Preparation</span></dt>
+        <dd>
+          <span>{{ kitchenRecipes.preparation }}</span>
+        </dd>
+        <dt><span jhiTranslate="backendApp.kitchenRecipes.image">Image</span></dt>
+        <dd>
+          <div *ngIf="kitchenRecipes.image">
+            <a (click)="openFile(kitchenRecipes.image, kitchenRecipes.imageContentType)" jhiTranslate="entity.action.open">open</a>
+            {{ kitchenRecipes.imageContentType }}, {{ byteSize(kitchenRecipes.image) }}
+          </div>
+        </dd>
+        <dt><span jhiTranslate="backendApp.kitchenRecipes.status">Status</span></dt>
+        <dd>
+          <span>{{ kitchenRecipes.status }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/kitchen-recipes', kitchenRecipes.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+entity KitchenRecipes {
+	name String required,
+	description TextBlob,
+    ingredients TextBlob,
+    preparation TextBlob,
+    image Blob,
+    status Boolean
+}

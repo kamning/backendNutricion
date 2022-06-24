@@ -1,0 +1,29 @@
+{
+  "backendApp": {
+    "kitchenRecipes": {
+      "home": {
+        "title": "Kitchen Recipes",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Kitchen Recipes",
+        "createOrEditLabel": "Crear o editar Kitchen Recipes",
+        "notFound": "Ningún Kitchen Recipes encontrado"
+      },
+      "created": "Un nuevo Kitchen Recipes ha sido creado con el identificador {{ param }}",
+      "updated": "Un Kitchen Recipes ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Kitchen Recipes ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Kitchen Recipes {{ id }}?"
+      },
+      "detail": {
+        "title": "Kitchen Recipes"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "ingredients": "Ingredients",
+      "preparation": "Preparation",
+      "image": "Image",
+      "status": "Status"
+    }
+  }
+}

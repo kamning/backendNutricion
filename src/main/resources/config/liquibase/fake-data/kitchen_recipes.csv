@@ -1,0 +1,11 @@
+id;name;description;ingredients;preparation;image;image_content_type;status
+1;Adelante Hormigon mediante;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.png;image/png;false
+2;fritas;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.png;image/png;false
+3;Open-source deposit;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.png;image/png;true
+4;Juguetería;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.png;image/png;true
+5;País;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.png;image/png;true
+6;transform;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.png;image/png;true
+7;Sincronizado;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.png;image/png;true
+8;e-commerce;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.png;image/png;true
+9;Extremadura;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.png;image/png;true
+10;Guatemala PNG Rústico;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.txt;../fake-data/blob/hipster.png;image/png;true
